@@ -6,8 +6,8 @@ import sys
 from pathlib import Path
 
 PATTERNS = {
-    "errors": re.compile(r"\\bERROR\\b", re.I),
-    "critical": re.compile(r"\\bCRITICAL\\b", re.I),
+    "errors": re.compile(r"\bERROR\b", re.I),
+    "critical": re.compile(r"\bCRITICAL\b", re.I),
     "failed_logins": re.compile(r"(failed password|authentication failure)", re.I),
 }
 
