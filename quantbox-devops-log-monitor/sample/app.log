@@ -1,0 +1,8 @@
+2026-09-30 09:00:01 INFO  api started on port 8080
+2026-09-30 09:01:12 INFO  request completed status=200
+2026-09-30 09:02:44 WARN  database response time above threshold
+2026-09-30 09:03:15 ERROR database connection timeout
+2026-09-30 09:04:02 INFO  retrying database connection
+2026-09-30 09:04:08 CRITICAL database unavailable after retries
+2026-09-30 09:05:21 WARN  Failed password for invalid user test from 10.0.0.8
+2026-09-30 09:06:10 INFO  service recovered
